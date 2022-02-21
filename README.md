@@ -36,7 +36,7 @@ syscall(syscall_no [, p2, p3, p4, p5, p6]) => r | nil, errno
 	
 	Example:
 
-	lsc = require "lualinuxsc"
+	lsc = require "lsc"
 	nr = require "lsc.nr"  -- syscall numbers (the __NR_xxx constants)
 		
 	-- get the current user uid:  system call 102 (__NR_getuid)
@@ -98,7 +98,7 @@ environ() => addr
 An example: Change the current directory
 
 ```lua
-	lsc = require "lualinuxsc"
+	lsc = require "lsc"
 	nr = require "lsc.nr"
 	
 	-- change the current directory to /var/log
