@@ -12,7 +12,7 @@ The library targets **Lua 5.3+** with the default 64-bit integers.
 
 - This is obviously *very architecture/ABI dependant*. The code, examples and tests are written for x86_64.
 
-- The example and test files in subbdirectory `vl5` are not extensively tested. Direct access to Linux syscalls may wreak havoc on your system. Caution is advised.
+- The example and test files in subbdirectory `lsc` are not extensively tested. Direct access to Linux syscalls may wreak havoc on your system. Caution is advised.
 
 
 ### What's the point?
